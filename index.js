@@ -30,7 +30,7 @@ const selectors = JSON.stringify(
     }, {}),
 );
 
-fs.writeFile('./sigsnshit.json', selectors, err => {
+fs.writeFile('./functions.json', selectors, err => {
   if (err) {
     console.log(err);
   }

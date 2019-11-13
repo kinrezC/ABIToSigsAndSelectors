@@ -1,7 +1,7 @@
-var abi = require('./abi');
-var { pick } = require('lodash');
-var Web3 = require('web3');
-var fs = require('fs');
+let abi = require('./abi');
+let { pick } = require('lodash');
+let Web3 = require('web3');
+let fs = require('fs');
 
 const web3 = new Web3();
 
